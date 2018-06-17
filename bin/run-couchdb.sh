@@ -19,4 +19,4 @@ docker run $FLAGS \
 	-h $NAME \
 	--name $NAME \
 	-v couchdb-data.$NETWORK:/opt/couchdb/data \
-	2600hz/couchdb
+	2600hz/couchdb:2.1
