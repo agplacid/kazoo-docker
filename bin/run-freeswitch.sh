@@ -21,7 +21,7 @@ docker run $FLAGS \
 	--env RABBITMQ=$RABBITMQ \
 	--env RTP_START_PORT=$RTP_START_PORT \
 	--env EXT_IP=$EXT_IP \
-	2600hz/freeswitch
+	2600hz/freeswitch:kazoo-0.9.8-alpine
 
 echo -n "adding dispatcher $NAME to kamailio $KAMAILIO "
 docker exec $KAMAILIO dispatcher_add.sh 1 $NAME
