@@ -20,4 +20,4 @@ docker run $FLAGS \
 	--env NETWORK=$NETWORK \
 	--env RABBITMQ=$RABBITMQ \
 	--env EXT_IP=$EXT_IP \
-	2600hz/kamailio:edge
+	2600hz/kamailio:latest
