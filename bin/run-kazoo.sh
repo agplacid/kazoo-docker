@@ -20,4 +20,4 @@ docker run $FLAGS \
 	--env RABBITMQ=rabbitmq.$NETWORK \
 	--env NODE_NAME=kazoo \
 	--env KAZOO_APPS=$KAZOO_APPS \
-	2600hz/kazoo:edge
+	2600hz/kazoo:latest
