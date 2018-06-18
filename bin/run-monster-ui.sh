@@ -17,4 +17,4 @@ docker run $FLAGS \
 	--name $NAME \
 	--env NETWORK=$NETWORK \
 	--env KAZOO_URL=$KAZOO_URL \
-	2600hz/monster-ui:0.0.1
+	2600hz/monster-ui:latest
